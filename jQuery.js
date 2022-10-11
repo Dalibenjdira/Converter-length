@@ -30,17 +30,17 @@ $(document).ready(function(){
             $('#km').val(  cm / 100000  )
             $('#feet').val(  cm* 0.32808  )
           }
+          else if(feet === "" && meter === ""&& km === ""&& cm === ""){
+            $('#feet').val( mile/ 0.62137   )
+            $('#meter').val( mile/0.00062137 )
+            $('#km').val(  mile/ 0.62137  )
+            $('#cm').val(  mile/ 0.32808  )
+          }
          
 
 
 
         
-        
-
-
-
-
-
 
 });
 })
