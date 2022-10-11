@@ -1,0 +1,81 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-image: url(https://www.lafabriqueduprof.fr/wp-content/uploads/2019/07/adobestock_42016514.jpg);
+    background-repeat: no-repeat;
+ background-size: cover;
+    
+}
+.conv{
+    margin-bottom: 65px;
+    font-size: center;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#box{
+    box-shadow: 0 0 30px 30px ;
+    width: 560px;
+    height: 680px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;  
+    margin-top: 50px;
+}
+p{
+    color: rgba(5, 6, 4, 0.855);
+    background-image: url(https://www.nicepng.com/png/full/447-4478234_starburst-background-png-clipart-royalty-free-stock-starburst.png);
+    margin: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inputBox{
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    
+}
+.inputBox label{
+    font-size: 35px;
+  color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: oblique;
+
+
+}
+.inputBox input{
+    border: 30px;;
+    outline: none;
+background-color: rgba(241, 242, 242, 0.788);
+    padding:10px;
+    font-size: large;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    width: 240px;
+}
+.Click{
+width: 50%;
+height: 10%;
+background-color: rgba(0, 0, 0, 0.713);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top:70px;
+color: rgb(255, 255, 255);
+font-size: 35px;
+}
+.Hide{
+    width: 50%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.713);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:30px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    }
